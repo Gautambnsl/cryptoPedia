@@ -1,5 +1,5 @@
 {
-  "name": "dev",
+  "name": "cryptopedia",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,15 +10,21 @@
   },
   "dependencies": {
     "react": "^18",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@metamask/detect-provider": "^2.0.0",
+    "@metamask/sdk-react": "^0.14.1",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
     "react-dom": "^18",
-    "next": "14.2.2"
+    "next": "12.2.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.3.0"
   }
 }
